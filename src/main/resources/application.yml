@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 107462
+    url: jdbc:mysql://127.0.0.1:3306/sell?&characterEncoding=utf-8&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+server:
+  context-path: /sell
+
+wechat:
+  mpAppId: wx63994ce934d8b5a9
+  mpAppSecret: 60056b6e18766f4593fe566958a5e55a
+  openAppId: wx6ad144e54af67d87
+  openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+  mchId: 1483469312
+  mchKey: C5245D70627C1F8E9964D494B0735025
+  keyPath: E:\code\sell\h5.p12
+  notifyUrl: http://lemonlris.natapp1.cc/sell/pay/notify
+
